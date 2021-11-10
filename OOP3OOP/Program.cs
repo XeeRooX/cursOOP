@@ -12,7 +12,8 @@ namespace OOP3OOP
             Array arr2 = (Array)arr;
             Array.Sort(arr);
             Locality locality = new Locality("azxsa");
-        
+            //ParamsOfModeling initi = new ParamsOfModeling();
+            
         }
     }
 }

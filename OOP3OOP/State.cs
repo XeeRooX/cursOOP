@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP3OOP
 {
-    class State
+    class State : Factors
     {
         protected static int AllPeop { get; set; }
         protected static int AllCases { get; set; }
