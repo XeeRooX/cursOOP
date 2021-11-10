@@ -13,6 +13,7 @@ namespace OOP3OOP
             Array.Sort(arr);
             Locality locality = new Locality("azxsa");
             //ParamsOfModeling initi = new ParamsOfModeling();
+            Console.WriteLine("rtgthhjtjyjthr");
             
         }
     }
