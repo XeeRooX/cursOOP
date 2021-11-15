@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP3OOP
 {
-    class Metropolis : City, ILocality
+    class Metropolis : Locality, ILocality
     {
         public int Population
         {

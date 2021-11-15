@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="OOP3OOP.City" Collapsed="true">
-    <Position X="12" Y="4.25" Width="1.5" />
+    <Position X="11.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>City.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -11,22 +11,22 @@
   <Class Name="OOP3OOP.Locality" Collapsed="true">
     <Position X="13.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAICAAAAAAgAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAICAAAAAAgAAAAAAEAAABQAAAAEAAAAAAEAAAAAAAA=</HashCode>
       <FileName>Locality.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOP3OOP.Metropolis" Collapsed="true">
-    <Position X="12" Y="5.75" Width="1.5" />
+    <Position X="13.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Metropolis.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="OOP3OOP.Settlement" Collapsed="true">
-    <Position X="14.25" Y="4.25" Width="1.5" />
+    <Position X="15.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Settlement.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -34,12 +34,22 @@
   <Class Name="OOP3OOP.Factors" Collapsed="true">
     <Position X="13.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAABAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAABAAEACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factors.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOP3OOP.ParamsOfModeling" Collapsed="true">
     <Position X="16.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="OOP3OOP.ParamsOfModeling.Season" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ParamsOfModeling.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAABAAQAIAAAAAAAAABAAAAAQABAAAAEAAIAAAAAAAA=</HashCode>
       <FileName>ParamsOfModeling.cs</FileName>
@@ -52,7 +62,7 @@
       <FileName>MoneyFund.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="OOP3OOP.Simulation" Collapsed="true">
+  <Class Name="OOP3OOP.Simulation">
     <Position X="9.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -62,7 +72,7 @@
   <Class Name="OOP3OOP.State" Collapsed="true">
     <Position X="13.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAEAAAAAAAEIAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
       <FileName>State.cs</FileName>
     </TypeIdentifier>
   </Class>

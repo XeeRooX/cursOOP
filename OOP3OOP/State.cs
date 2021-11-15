@@ -19,5 +19,6 @@ namespace OOP3OOP
             base.PrintInfo();
             Console.WriteLine($"Название страны: {NameState}");
         }
+
     }
 }
