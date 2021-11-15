@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ПК\\source\\repos\\OOP3OOP\\OOP3OOP\\OOP3OOP.csproj": {}
+    "D:\\ИНСТИТУТ\\Ист\\ооп\\курсов\\OOP3OOP\\OOP3OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ПК\\source\\repos\\OOP3OOP\\OOP3OOP\\OOP3OOP.csproj": {
+    "D:\\ИНСТИТУТ\\Ист\\ооп\\курсов\\OOP3OOP\\OOP3OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ПК\\source\\repos\\OOP3OOP\\OOP3OOP\\OOP3OOP.csproj",
+        "projectUniqueName": "D:\\ИНСТИТУТ\\Ист\\ооп\\курсов\\OOP3OOP\\OOP3OOP.csproj",
         "projectName": "OOP3OOP",
-        "projectPath": "C:\\Users\\ПК\\source\\repos\\OOP3OOP\\OOP3OOP\\OOP3OOP.csproj",
-        "packagesPath": "C:\\Users\\ПК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ПК\\source\\repos\\OOP3OOP\\OOP3OOP\\obj\\",
+        "projectPath": "D:\\ИНСТИТУТ\\Ист\\ооп\\курсов\\OOP3OOP\\OOP3OOP.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ИНСТИТУТ\\Ист\\ооп\\курсов\\OOP3OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ПК\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
