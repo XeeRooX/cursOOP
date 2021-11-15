@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="OOP3OOP.City" Collapsed="true">
+<<<<<<< HEAD
     <Position X="11.5" Y="4.25" Width="1.5" />
+=======
+    <Position X="11" Y="4.25" Width="1.5" />
+>>>>>>> d9d41f1c9b98110f0cfe628b271cb786d0be72eb
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>City.cs</FileName>
@@ -11,12 +15,20 @@
   <Class Name="OOP3OOP.Locality" Collapsed="true">
     <Position X="13.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
+<<<<<<< HEAD
       <HashCode>AAICAAAAAAgAAAAAAEAAABQAAAAEAAAAAAEAAAAAAAA=</HashCode>
+=======
+      <HashCode>AAICAAAAAAgAAAAAAEAAABQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+>>>>>>> d9d41f1c9b98110f0cfe628b271cb786d0be72eb
       <FileName>Locality.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOP3OOP.Metropolis" Collapsed="true">
+<<<<<<< HEAD
     <Position X="13.25" Y="4.25" Width="1.5" />
+=======
+    <Position X="13.25" Y="4.5" Width="1.5" />
+>>>>>>> d9d41f1c9b98110f0cfe628b271cb786d0be72eb
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Metropolis.cs</FileName>
@@ -24,7 +36,11 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="OOP3OOP.Settlement" Collapsed="true">
+<<<<<<< HEAD
     <Position X="15.5" Y="4.25" Width="1.5" />
+=======
+    <Position X="15.75" Y="4.25" Width="1.5" />
+>>>>>>> d9d41f1c9b98110f0cfe628b271cb786d0be72eb
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Settlement.cs</FileName>

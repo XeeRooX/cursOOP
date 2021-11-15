@@ -17,6 +17,15 @@ namespace OOP3OOP
             Console.WriteLine("Бюджет страны: "+ MoneyFund.Budget);
             Arstocka.PrintInfo();
             //Console.WriteLine("Вакцинированных людей: " + Arstocka.GetVaccinatedPeop()); 
+
+            Console.WriteLine();
+            Metropolis ass = new Metropolis("ass", 2000000);
+            ass.PrintInfo();
+
+           
+            State state = new State();
+            state.Meth();
+            Arstocka.Meth();
         }
     }
 }
