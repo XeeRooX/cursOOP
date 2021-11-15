@@ -24,7 +24,7 @@ namespace OOP3OOP
             }
         }
         public static void Vaccinade(int countP)
-        {
+        {           
             Budget -= countP * PriceVac;
         }
         public int ProcWorkers { get; } = 65;

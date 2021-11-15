@@ -14,13 +14,29 @@ namespace OOP3OOP
         {
             Name = n;
         }
+        public Locality()
+        {
+
+        }
         public int GetPopulation() 
         {
             return population;
         }
         public int GetVaccinatedPeop() 
-        {
-            return (int) ProcOfVac / 100 * population;
+        {          
+            return (int) (ProcOfVac / 100 * population);
+        }
+
+        public int GetAllPeople() {
+            return AllPeop;
+        }
+        public virtual void PrintInfo() {
+            Console.WriteLine("Название: "+ Name);
+            Console.WriteLine( "Популяция: " + population);
+            Console.WriteLine( "Заболевших: "+ (int)(ProcOfCases/100*population));          
+            Console.WriteLine( "Вакцинированных: " + (int)(ProcOfVac / 100 * population));
+            Console.WriteLine("Процент заболевших: " + ProcOfCases);
+            Console.WriteLine("Процент выкцинированных: " + ProcOfVac);
         }
     }
 }

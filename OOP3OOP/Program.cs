@@ -6,15 +6,17 @@ namespace OOP3OOP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Бюджет
+            MoneyFund.Budget = 100000;
+            Metropolis Arstocka = new Metropolis("Арстоцка", 5000000);
+            Arstocka.PrintInfo();
+            Console.WriteLine();
 
-            int[] arr = { 1, 2, 3 };
-            Array arr2 = (Array)arr;
-            Array.Sort(arr);
-            Locality locality = new Locality("azxsa");
-            //ParamsOfModeling initi = new ParamsOfModeling();
-            Console.WriteLine("rtgthhjtjyjthr");
-            
+
+            Simulation.Simulate(Arstocka);
+            Console.WriteLine("Бюджет страны: "+ MoneyFund.Budget);
+            Arstocka.PrintInfo();
+            //Console.WriteLine("Вакцинированных людей: " + Arstocka.GetVaccinatedPeop()); 
         }
     }
 }

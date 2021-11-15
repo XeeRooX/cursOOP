@@ -40,27 +40,20 @@
   </Class>
   <Class Name="OOP3OOP.ParamsOfModeling" Collapsed="true">
     <Position X="16.75" Y="1.5" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="OOP3OOP.ParamsOfModeling.Season" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>ParamsOfModeling.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAABAAQAIAAAAAAAAABAAAAAQABAAAAEAAIAAAAAAAA=</HashCode>
       <FileName>ParamsOfModeling.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOP3OOP.MoneyFund" Collapsed="true">
-    <Position X="7.75" Y="4.25" Width="1.5" />
+    <Position X="9.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAACEgAAAgEA=</HashCode>
       <FileName>MoneyFund.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOP3OOP.Simulation" Collapsed="true">
-    <Position X="7.75" Y="5.25" Width="1.5" />
+    <Position X="9.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Simulation.cs</FileName>
