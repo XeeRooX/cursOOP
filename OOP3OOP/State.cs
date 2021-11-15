@@ -19,5 +19,15 @@ namespace OOP3OOP
             base.PrintInfo();
             Console.WriteLine($"Название страны: {NameState}");
         }
+
+        public virtual int GetMoney() 
+        {
+            return MoneyFund.Budget;
+        }
+
+        public void Meth() 
+        {
+            Console.WriteLine("Вызов метода Meth() в классе State");
+        }
     }
 }

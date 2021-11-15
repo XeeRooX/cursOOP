@@ -37,5 +37,10 @@ namespace OOP3OOP
             Console.WriteLine("Заболевших: "+ (int)(ProcOfCases/100*population));
             Console.WriteLine("Вакцинированных: " + (int)(ProcOfVac / 100 * population));
         }
+
+        public new void Meth() 
+        {
+            Console.WriteLine("Вызов метода Meth() в Locality");
+        }
     }
 }
