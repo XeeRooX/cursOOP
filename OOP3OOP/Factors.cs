@@ -20,6 +20,12 @@ namespace OOP3OOP
             SaturationTrans = (float)(new Random().Next(100)) / 100;
            // Console.WriteLine(SaturationTrans);
         }
-        
+
+        public virtual void PrintInfo() 
+        {
+            Console.WriteLine("Насыщенность транспорта: " + SaturationTrans);
+            Console.WriteLine("Процент вакцинированных: "+ ProcOfVac);
+            Console.WriteLine("Процент заболевших: "+ ProcOfCases);
+        }
     }
 }

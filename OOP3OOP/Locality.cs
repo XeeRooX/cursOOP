@@ -30,13 +30,12 @@ namespace OOP3OOP
         public int GetAllPeople() {
             return AllPeop;
         }
-        public virtual void PrintInfo() {
+        public override void PrintInfo() {
+            base.PrintInfo();
             Console.WriteLine("Название: "+ Name);
-            Console.WriteLine( "Популяция: " + population);
-            Console.WriteLine( "Заболевших: "+ (int)(ProcOfCases/100*population));          
-            Console.WriteLine( "Вакцинированных: " + (int)(ProcOfVac / 100 * population));
-            Console.WriteLine("Процент заболевших: " + ProcOfCases);
-            Console.WriteLine("Процент выкцинированных: " + ProcOfVac);
+            Console.WriteLine("Популяция: " + population);
+            Console.WriteLine("Заболевших: "+ (int)(ProcOfCases/100*population));
+            Console.WriteLine("Вакцинированных: " + (int)(ProcOfVac / 100 * population));
         }
     }
 }

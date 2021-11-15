@@ -23,5 +23,11 @@ namespace OOP3OOP
             AllPeop += popul;
             Population = popul;
         }
+
+        public override void PrintInfo()
+        {
+            Console.WriteLine("Тип населенного пункта: Мегаполис");
+            base.PrintInfo();                
+        }
     }
 }
