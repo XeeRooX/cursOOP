@@ -27,5 +27,10 @@ namespace OOP3OOP
             AllPeop += popul;
             Population = popul;
         }
+        public override void PrintInfo()
+        {
+            base.PrintInfo();
+            Console.WriteLine("Тип населённого пункта: Город");
+        }
     }
 }

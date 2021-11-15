@@ -9,9 +9,15 @@ namespace OOP3OOP
         protected static int AllPeop { get; set; }
         protected static int AllCases { get; set; }
         protected static int AllVaccinated { get; set; }
+        protected static string NameState { get; set; }
 
         public State():base()
         {
+        }
+        public override void PrintInfo()
+        {
+            base.PrintInfo();
+            Console.WriteLine($"Название страны: {NameState}");
         }
     }
 }
