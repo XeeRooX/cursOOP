@@ -37,17 +37,18 @@ namespace OOP3OOP
             Console.WriteLine("Заболевших: "+ (int)(ProcOfCases/100*population));
             Console.WriteLine("Вакцинированных: " + (int)(ProcOfVac / 100 * population));
         }
-<<<<<<< HEAD
+
         public sealed override int GetMoney()
         {
-            int stateMoney = base.GetMoney;
+            int stateMoney = base.GetMoney();
             return (int)((population / AllPeop) * stateMoney);
-=======
+        }
+
 
         public new void Meth() 
         {
             Console.WriteLine("Вызов метода Meth() в Locality");
->>>>>>> d9d41f1c9b98110f0cfe628b271cb786d0be72eb
+
         }
     }
 }
